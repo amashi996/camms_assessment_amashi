@@ -1,0 +1,9 @@
+{
+
+  "browsers": ["chrome"],
+  "pageLoadTimeout": 2000,
+  "pageRequestTimeout": 60000,
+  "ajaxRequestTimeout": 60000
+
+  
+  }
