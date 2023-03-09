@@ -13,7 +13,7 @@ fixture `Assessment | Quality Assurance | Swag Labs`
 
         await t
             .maximizeWindow()
-            .typeText(Selector('input[id="user-name"]'), username)
+            .typeText('input[id="user-name"]', username)
             .typeText('input[id="password"]', password)
             .click('input[id="login-button"][value="Login"]');
     }
